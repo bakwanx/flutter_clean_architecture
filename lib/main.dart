@@ -9,6 +9,7 @@ import 'features/daily_news/presentation/bloc/article/remote/remote_article_bloc
 import 'features/daily_news/presentation/bloc/article/remote/remote_article_event.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await initializeDepedencies();
   runApp(const MyApp());
 }
